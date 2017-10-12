@@ -8,10 +8,22 @@ const options = [
   { value: 'one', label: 'One' },
   { value: 'two', label: 'Two' },
   { value: 'tree', label: 'Tree' },
+  { value: 'four', label: 'Four' },
+  { value: 'five', label: 'Five' },
+  { value: 'six', label: 'Six' },
+  { value: 'seven', label: 'Seven' },
 ]
 
 ReactDOM.render((
   <div>
+    <div style={{width: '300px'}}>
+      <h2>Multi Select</h2>
+      <SelectShadow
+        multi
+        value={['one', 'two']}
+        options={options}
+      />
+    </div>
     <div style={{width: '300px'}}>
       <h2>With Shadow DOM</h2>
       <SelectShadow
@@ -45,19 +57,31 @@ ReactDOM.render((
     {`
     :root {
       // change CSS root scope
-      --styled-select-border-style: solid;
+      --styled-select__border-style: solid;
     }
 
     .select-theme-1 {
+      // old variables version (<= 0.0.17-alpha)
       --styled-select-background-color: black;
       --styled-select-border-width: 3px;
       --styled-select-control-border-color: red;
+
+      // new variables format (>= 2.0.0-alpha)
+      --styled-select__background-color: black;
+      --styled-select__border-width: 3px;
+      --styled-select-control__border-color: red;
     }
 
     .select-theme-2 {
+      // old variables varsion (<= 0.0.17-alpha)
       --styled-select-background-color: red;
       --styled-select-border-width: 1px;
       --styled-select-control-border-color: black;
+
+      // new variables format (>= 2.0.0-alpha)
+      --styled-select__background-color: red;
+      --styled-select__border-width: 1px;
+      --styled-select-control__border-color: black;
     }`}
     </pre>
 
