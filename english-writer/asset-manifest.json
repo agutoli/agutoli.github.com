@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/english-writter/static/css/main.e2ae30fd.chunk.css",
-    "main.js": "/english-writter/static/js/main.6f7f8eeb.chunk.js",
-    "main.js.map": "/english-writter/static/js/main.6f7f8eeb.chunk.js.map",
-    "runtime-main.js": "/english-writter/static/js/runtime-main.d654d749.js",
-    "runtime-main.js.map": "/english-writter/static/js/runtime-main.d654d749.js.map",
-    "static/css/2.50f53c61.chunk.css": "/english-writter/static/css/2.50f53c61.chunk.css",
-    "static/js/2.45987899.chunk.js": "/english-writter/static/js/2.45987899.chunk.js",
-    "static/js/2.45987899.chunk.js.map": "/english-writter/static/js/2.45987899.chunk.js.map",
-    "index.html": "/english-writter/index.html",
-    "precache-manifest.5cbafce8892ac5306b0d7d74aca37ec7.js": "/english-writter/precache-manifest.5cbafce8892ac5306b0d7d74aca37ec7.js",
-    "service-worker.js": "/english-writter/service-worker.js",
-    "static/css/2.50f53c61.chunk.css.map": "/english-writter/static/css/2.50f53c61.chunk.css.map",
-    "static/css/main.e2ae30fd.chunk.css.map": "/english-writter/static/css/main.e2ae30fd.chunk.css.map",
-    "static/js/2.45987899.chunk.js.LICENSE.txt": "/english-writter/static/js/2.45987899.chunk.js.LICENSE.txt"
+    "main.css": "/english-writer/static/css/main.e2ae30fd.chunk.css",
+    "main.js": "/english-writer/static/js/main.e428834a.chunk.js",
+    "main.js.map": "/english-writer/static/js/main.e428834a.chunk.js.map",
+    "runtime-main.js": "/english-writer/static/js/runtime-main.e8dfca65.js",
+    "runtime-main.js.map": "/english-writer/static/js/runtime-main.e8dfca65.js.map",
+    "static/css/2.50f53c61.chunk.css": "/english-writer/static/css/2.50f53c61.chunk.css",
+    "static/js/2.a13177dd.chunk.js": "/english-writer/static/js/2.a13177dd.chunk.js",
+    "static/js/2.a13177dd.chunk.js.map": "/english-writer/static/js/2.a13177dd.chunk.js.map",
+    "index.html": "/english-writer/index.html",
+    "precache-manifest.fed5322095682cfcb697428d2dca7aea.js": "/english-writer/precache-manifest.fed5322095682cfcb697428d2dca7aea.js",
+    "service-worker.js": "/english-writer/service-worker.js",
+    "static/css/2.50f53c61.chunk.css.map": "/english-writer/static/css/2.50f53c61.chunk.css.map",
+    "static/css/main.e2ae30fd.chunk.css.map": "/english-writer/static/css/main.e2ae30fd.chunk.css.map",
+    "static/js/2.a13177dd.chunk.js.LICENSE.txt": "/english-writer/static/js/2.a13177dd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d654d749.js",
+    "static/js/runtime-main.e8dfca65.js",
     "static/css/2.50f53c61.chunk.css",
-    "static/js/2.45987899.chunk.js",
+    "static/js/2.a13177dd.chunk.js",
     "static/css/main.e2ae30fd.chunk.css",
-    "static/js/main.6f7f8eeb.chunk.js"
+    "static/js/main.e428834a.chunk.js"
   ]
 }
